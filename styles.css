@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: verdana, sans-serif;
+  color: #11999E;
+}
+
+h1 {
+  color: #66BFBF;
+  margin-top: 50px auto 0 auto;
+  font-family: 'freestyle script';
+  font-size: 562%
+    /*1em OR 1rem=16px=100%*/
+  ;
+  /*width: 10%;margin: 0 auto 0 auto;*/
+}hr{border:dotted ;color: #11999E;border-bottom: none;width:4%;margin: 50px auto;}
+
+p {
+  font-weight: normal;
+  font-size: 2em;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  font-size: 15px;
+  position: relative;
+  padding-top: 100px;
+}
+
+/*.middle-container
+.bottom-container*/
+.mountain-size {
+  height: 300px;
+  width: 500px;
+}
+
+#cloud-A {
+  height: 60px;
+  width: 120px;
+  position: absolute;
+  top: 30px;
+  right: 450px;
+}
+
+#cloud-B {
+  height: 60px;
+  width: 120px;
+  position: absolute;
+  bottom: 300px;
+  left: 400px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.image {
+  border-radius: 100%;
+  height: 300px;
+  width: 300px;
+}/*we can make (contact me) button more beautiful by using button generator*/
+
+/*we can also use float property to wrap image and text and and and clear property for a part of text to cancel float property for that part of text.*/
